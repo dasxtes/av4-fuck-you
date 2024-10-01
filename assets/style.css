@@ -3,7 +3,7 @@
 :root{
   --text-color: #ffffff;
   --card-front-color: #196dc2;
-  --card-back-color: #196dc2;
+  --card-back-color: #ffffff;
 }
 
 body {
