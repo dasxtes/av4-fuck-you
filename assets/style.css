@@ -2,12 +2,12 @@
 
 :root{
   --text-color: #ffffff;
-  --card-front-color: #6959CD;
-  --card-back-color: #6959CD;
+  --card-front-color: #1E90FF;
+  --card-back-color: #1E90FF;
 }
 
 body {
-  background: url(img/bg-desktop-blue.webp);
+  background: url(img/download.jpeg);
   font-family: Bai Jamjuree;
 }
 .cartao__conteudo {
