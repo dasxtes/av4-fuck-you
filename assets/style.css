@@ -14,6 +14,8 @@ body {
     background-color: var(--card-front-color);
     text-align: center;
     height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
   }
   #container {
     display: flex;
@@ -37,6 +39,7 @@ body {
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+    backface-visibility: hidden;
   }
   .cartao__conteudo__pergunta p {
     color: var(--text-color);
@@ -49,16 +52,9 @@ body {
   
   .cartao_hover  .cartao__conteudo {
     transform: rotateY(180deg);
-    
   }
-  .cartao__conteudo {
-    transform-style: preserve-3d;
-    transition: transform 300ms ease-in-out;
-  }
-  .cartao__conteudo h3 {
-    backface-visibility: hidden;
-  }
-  .cartao__conteudo__frente, .cartao__conteudo__verso {
+
+  .cartao__conteudo__pergunta, .cartao__conteudo__resposta {
   backface-visibility: hidden;
 }
 footer {
@@ -68,7 +64,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 2rem;
-}
+} 
 footer p {
   text-align: center;
   font-size: 0.6rem;
