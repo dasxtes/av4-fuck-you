@@ -12,8 +12,7 @@ cartao.innerHTML = `
                         <p>${resposta}
                         </p>
                     </div>
-                </div>
-            </article>-->`
+                </div>`
 
     let container = document.getElementById ('container')
     container.appendChild (cartao)
