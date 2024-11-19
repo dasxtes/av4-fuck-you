@@ -41,7 +41,7 @@ criaCartao(
 criaCartao(
     'Programação',
     'Qual tag é usada para representar o cabeçario? ',
-    'header',
+    'header'
 )
 criaCartao(
     'Biologia',
