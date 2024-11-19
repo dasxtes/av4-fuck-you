@@ -14,11 +14,11 @@ function criaCartao(categoria, pergunta, resposta) {
                 </div>
                 `
     let respostaVisivel = false
-    function viraCartão(){
+    function viraCartao(){
         respostaVisivel = !respostaVisivel
-
+        cartao.classList.toggle('active',respostavisivel)
     }
-
+cartao.addEventListener ('click', viraCartao)
 let container = document.getElementById('container')
 container.appendChild(cartao)
 }
