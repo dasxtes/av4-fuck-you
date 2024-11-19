@@ -13,9 +13,9 @@ function criaCartao(categoria, pergunta, resposta) {
                     </div>
                 </div>
                 `
-    let respostavisivel = false
+    let respostaVisivel = false
     function viraCartão(){
-
+        respostaVisivel = !respostaVisivel
 
     }
 
